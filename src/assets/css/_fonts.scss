@@ -1,0 +1,35 @@
+h1 {
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 102px;
+
+  @media (max-width: $mobileWidth) {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 67px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+p.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
